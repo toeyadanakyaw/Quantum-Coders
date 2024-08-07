@@ -1,0 +1,63 @@
+# Ignore Maven target directory
+/target/
+
+# Ignore Maven local repository
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore Eclipse and IntelliJ IDEA project files
+*.classpath
+*.project
+*.settings/
+.idea/
+*.iml
+
+# Ignore Node.js dependencies
+/node_modules/
+
+# Ignore Angular build directory
+/dist/
+/out-tsc/
+
+# Ignore Angular specific files
+.angular/
+coverage/
+.vscode/
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.swp
+*.temp
+*.tmp
+
+# Ignore IDE specific files
+/.idea/
+/.vscode/
+
+# Ignore generated files
+/target/
+/*.jar
+/*.war
+/*.ear
+
+# Ignore local environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore specific files
+/package-lock.json
+/yarn.lock
+/npm-debug.log*
+
+# Ignore coverage reports
+/coverage
+
+# Ignore test reports
+/test-results/
+test-output/
